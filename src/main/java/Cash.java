@@ -12,7 +12,7 @@ public enum Cash implements IPay {
         return value;
     }
 
-    public String scan() {
-        return null;
+    public String pay() {
+        return "Pay £" + value/100;
     }
 }
