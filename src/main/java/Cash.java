@@ -1,4 +1,4 @@
-public enum Cash {
+public enum Cash implements IPay {
     NOTE5(500),
     NOTE10(1000);
 
