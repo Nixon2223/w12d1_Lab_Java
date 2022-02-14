@@ -22,4 +22,8 @@ public class DebitCard extends Card {
     public String scan() {
         return "Payment Complete";
     }
+
+    public String pay() {
+        return "Pay with debit card";
+    }
 }
