@@ -1,12 +1,14 @@
-public class Cash {
-    public enum Money {
-        NOTE5(500),
-        NOTE10(1000);
+public enum Cash {
+    NOTE5(500),
+    NOTE10(1000);
 
-        private final int value;
+    private final int value;
 
-        Money(int value) {
-            this.value = value;
+    Cash(int value) {
+        this.value = value;
     }
 
+    public int getValue() {
+        return value;
+    }
 }
