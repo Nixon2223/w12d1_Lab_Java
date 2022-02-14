@@ -6,4 +6,8 @@ public class CreditCard extends Card{
     public String scan() {
         return "Payment Successful";
     }
+
+    public String pay() {
+        return "Pay with credit card";
+    }
 }

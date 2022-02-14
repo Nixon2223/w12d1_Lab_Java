@@ -1,4 +1,4 @@
-public abstract class Card implements IScan{
+public abstract class Card implements IScan, IPay{
     private String cardNumber;
     private String expiryDate;
     private int securityNumber;

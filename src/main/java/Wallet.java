@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Wallet {
     private String name;
     private ArrayList<IScan> walletItems;
+    private ArrayList<IPay> cash;
 
     public Wallet(String name) {
         this.name = name;
