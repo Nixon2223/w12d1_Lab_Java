@@ -11,4 +11,8 @@ public enum Cash implements IPay {
     public int getValue() {
         return value;
     }
+
+    public String scan() {
+        return null;
+    }
 }
