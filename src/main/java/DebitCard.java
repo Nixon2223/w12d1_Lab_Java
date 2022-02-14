@@ -6,7 +6,7 @@ public class DebitCard implements IScan{
     private int securityNumber;
 
     public DebitCard(String cardNumber, int sortCode, int accountNumber, String expiryDate, int securityNumber) {
-        this.cardNumber = cardNumber;
+
         this.sortCode = sortCode;
         this.accountNumber = accountNumber;
         this.expiryDate = expiryDate;
