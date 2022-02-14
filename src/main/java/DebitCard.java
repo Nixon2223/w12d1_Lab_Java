@@ -1,4 +1,4 @@
-public class DebitCard extends Card implements IScan{
+public class DebitCard extends Card {
     private String cardNumber;
     private int sortCode;
     private int accountNumber;
@@ -22,6 +22,4 @@ public class DebitCard extends Card implements IScan{
     public String scan() {
         return "Payment Complete";
     }
-
-
 }
