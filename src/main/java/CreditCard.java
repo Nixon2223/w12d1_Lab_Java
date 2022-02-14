@@ -1,12 +1,10 @@
-public class CreditCard implements IScan{
+public class CreditCard extends Card implements IScan{
     private String cardNumber;
     private String expiryDate;
     private int securityNumber;
 
     public CreditCard(String cardNumber, String expiryDate, int securityNumber) {
-        this.cardNumber = cardNumber;
-        this.expiryDate = expiryDate;
-        this.securityNumber = securityNumber;
+        super(cardNumber, expiryDate, securityNumber);
     }
 
     public String getCardNumber() {
