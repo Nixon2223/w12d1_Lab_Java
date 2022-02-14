@@ -8,4 +8,29 @@ public abstract class Card {
         this.expiryDate = expiryDate;
         this.securityNumber = securityNumber;
     }
+
+    public void setCardNumber(String cardNumber) {
+        this.cardNumber = cardNumber;
+    }
+
+    public void setExpiryDate(String expiryDate) {
+        this.expiryDate = expiryDate;
+    }
+
+    public void setSecurityNumber(int securityNumber) {
+        this.securityNumber = securityNumber;
+    }
+    public String getCardNumber() {
+        return cardNumber;
+    }
+
+    public String getExpiryDate() {
+        return expiryDate;
+    }
+
+    public int getSecurityNumber() {
+        return securityNumber;
+    }
+
+
 }
