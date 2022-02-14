@@ -22,4 +22,5 @@ public class DebitCard extends Card implements IScan{
     public String scan() {
         return "Payment Complete";
     }
+
 }
