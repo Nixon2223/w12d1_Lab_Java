@@ -20,4 +20,5 @@ public class Wallet {
     public void addItem(IScan walletItem) {
         this.walletItems.add(walletItem);
     }
+
 }
